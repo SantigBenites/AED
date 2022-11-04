@@ -1,0 +1,42 @@
+6
+
+a)
+pera
+cereja
+laranja
+ananas
+Empty
+Empty
+Empty
+Empty
+banana
+Empty
+maca
+Empty
+Empty
+
+b)
+pera
+cereja
+laranja
+Deleted
+Empty
+Empty
+Empty
+Empty
+banana
+Empty
+maca
+Empty
+Empty
+
+c)
+HashtableOpen<Integer,String> HO = new HashtableOpen<Integer,String>();
+	HO.put(10, "maca");
+	HO.put(26, "pera");
+	HO.put(52, "cereja");
+	HO.put(14, "laranja");
+	HO.put(13, "ananas");
+	HO.put(8, "banana");
+	System.out.println();
+	HO.remove(13);

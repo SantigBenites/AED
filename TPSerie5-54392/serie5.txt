@@ -1,0 +1,43 @@
+Serie 5 - 54392
+
+1.limite superior da taxa de crescimento do tempo de execucao de cada uma das operacoes
+	
+	Enqueue-
+	1000 elementos -0.001
+	2000 elementos -0.002
+	4000 elementos -0.002
+	8000 elementos -0.003
+	16000 elementos -0.003
+	32000 elementos -0.003
+	64000 elementos -0.005
+
+	Dequeue-
+	1000 elementos -0.001
+	2000 elementos -0.001
+	4000 elementos -0.001
+	8000 elementos -0.001
+	16000 elementos -0.001
+	32000 elementos -0.002
+	64000 elementos -0.002
+
+	Front-
+	1000 elementos -0.0
+	2000 elementos -0.0
+	4000 elementos -0.0
+	8000 elementos -0.0
+	16000 elementos -0.0
+	32000 elementos -0.0
+	64000 elementos -0.001
+
+	IsEmpty-
+	1000 elementos -0.0
+	2000 elementos -0.0
+	4000 elementos -0.0
+	8000 elementos -0.001
+	16000 elementos -0.001
+	32000 elementos -0.001
+	64000 elementos -0.002
+
+
+
+Logo todas as funcoes sao O(Enqueue), front e O(IsEmpty) e O(Dequeue) e a funcao que cresce mais devagar e Front.

@@ -1,0 +1,53 @@
+EX1
+
+a)se nao for defenido ira usar a funcao basica hashCode() do java esta que ira apenas colocar na hasmap a funcao no local equivalente ao numero de telefone 
+que seria a pior solucao pois cada entrada do hashmap so teria um objeto.
+b) se for definido como devolvendo sempre 0 o proposito da funcao hashCode() sera redundante dado que ira colocar no mesmo local do hasmap todos os objetos.
+c) se for definido apenas usando o indicativo do pais e o codigo de cidade, ira haver varias colisoes nos locais com maior numero de numeors de 
+telefone. O que levaria a uma menor eficiencia do hashmap. Por outro lado, este tipo de hashCode() faria ataques de denial of service muito simples.
+d) este seria o melhor caso dado que haveria uma grande dispesao dado que nao depende de fatores que se repetem em varios numeros de telefone,
+contudo como o anterior este tipo de hashCode() faria ataques de denial of service muito simples.
+
+
+
+EX4
+a)
+
+ananas cereja pera 
+laranja 
+Linha Vazia
+Linha Vazia
+Linha Vazia
+Linha Vazia
+Linha Vazia
+Linha Vazia
+banana 
+Linha Vazia
+maca 
+Linha Vazia
+Linha Vazia
+
+b)
+cereja pera 
+laranja 
+Linha Vazia
+Linha Vazia
+Linha Vazia
+Linha Vazia
+Linha Vazia
+Linha Vazia
+banana 
+Linha Vazia
+maca 
+Linha Vazia
+Linha Vazia
+
+c)
+HashtableChain<Integer,String> HC = new HashtableChain<Integer,String>();
+HC.put(10, "maca");
+HC.put(26, "pera");
+HC.put(52, "cereja");
+HC.put(14, "laranja");
+HC.put(13, "ananas");
+HC.put(8, "banana");
+HC.remove(13);

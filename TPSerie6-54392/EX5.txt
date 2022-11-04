@@ -1,0 +1,15 @@
+5)	
+
+	Arvore T1
+		Prefixa: 	ABCDEFGHI
+		Sufixa: 	DCFGEBIHA
+		Infixa: 	CDBFEGAIH	
+	Arvore T2
+		Prefixa: 	ABCEFHGD
+		Sufixa: 	BEHFGCDA	
+		Infixa: 	Nao esta defenida
+
+	Arvore T3
+		Prefixa: 	ABCD
+		Sufixa: 	DCBA
+		Infixa: 	Ã© binÃ¡ria? Sim --> ACDB

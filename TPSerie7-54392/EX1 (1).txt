@@ -1,0 +1,53 @@
+1) 
+Arvore normal 
+
+Node <Interger> Node95 = Node( 95, null, null);
+Node <Interger> Node90 = Node( 90, Node95, null);
+Node <Interger> Node80 = Node( 95, null, null);
+Node <Interger> Node40 = Node( 40, Node90, Node80);
+Node <Interger> Node38 = Node( 38, null, null);
+Node <Interger> Node37 = Node( 37, Node38, null);
+Node <Interger> Node25 = Node( 25, Node37, null);
+Node <Interger> Node15 = Node( 15, Node25, null);
+Node <Interger> Node30 = Node( 30, Node45, Node15);
+
+		30
+	       /  \
+	      /    \
+	     /      \
+ 	    /	     \
+	   15  	     40
+	    \	     / \
+	     25     80  90
+	      \          \
+	       35        95
+		\
+		 37
+	 	   \
+		   38
+
+Arvore apos node40 eleminado
+
+Node <Interger> Node95 = Node( 95, null, null);
+Node <Interger> Node80 = Node( 95, null, null);
+Node <Interger> Node90 = Node( 90, Node95, Node80);
+Node <Interger> Node38 = Node( 38, null, null);
+Node <Interger> Node37 = Node( 37, Node38, null);
+Node <Interger> Node25 = Node( 25, Node37, null);
+Node <Interger> Node15 = Node( 15, Node25, null);
+Node <Interger> Node30 = Node( 30, Node45, Node15);
+
+		30
+	       /  \
+	      /    \
+	     /      \
+ 	    /	     \
+	   15  	     90
+	    \	     / \
+	     25     80  95
+	      \          
+	       35       
+		\
+		 37
+	 	   \
+		   38

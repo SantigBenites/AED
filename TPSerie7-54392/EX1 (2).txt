@@ -1,0 +1,13 @@
+EX2 
+A)
+
+Para limpar os elemtnos repetidos dum veotr recorrendo a uma arvore apenas temos de 
+passar os valores do vetor para uma arvore de pesquisa, neste processo 
+os elementos repetidos serao eleindaso de seguida e so passar a arvore para um vetor.
+
+A compelxidade deste processo e n para passar o vetor para arvore e n para passar de arvore para vetor.
+Logo a complexidade e O(n^2).
+
+
+B)O processo de shufling custa n de complexidade, devido a este processo a complexidade das passagens e diminuida para log(n)
+ assim podemos concluir que a complexidade diminuir se utilizarmos shuflling e passa de O(n^2) para O(n*log(n)). 

@@ -1,0 +1,30 @@
+Serie 4
+
+
+2.
+
+b) sim para criar nao so para criar o array que serve de list , mas tambem para criar os nodes que seram postos dentro do array.'
+
+c) 	Pior Caso
+	1.addFirst = 11 + 2n
+	2.getFirst = 4
+	3.removeFirst = 4 + 4n
+	4.addLast = 11
+	5.getLast = 5
+	6.removeLast = 5
+	7.size = 1
+	8.isEmpty = 3
+	9.grow = 3 + 4n
+
+	Melhor Caso
+	1.addFirst = 6
+	2.getFirst = 3
+	3.removeFirst = 3
+	4.addLast = 6
+	5.getLast = 4
+	6.removeLast = 2
+	7.size = 1
+	8.isEmpty = 3
+	9.grow = 3 + 4n
+
+d)Listas duplamente ligadas.
